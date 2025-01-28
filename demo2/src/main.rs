@@ -6,4 +6,11 @@ fn main() {
     for i in 1..10{
         println!("Current iterator is : {}",i);
     }
+
+    let fn_result = addnum(20, 45);
+    println!("Sum result is :{}", fn_result);
+}
+
+fn addnum(a:i32 , b:i32)-> i32{
+    a + b
 }
